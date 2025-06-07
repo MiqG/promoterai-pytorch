@@ -1,1 +1,1 @@
-# Pytorch version of the PromoterAI model developed by Illumina
+# Pytorch implementation of the PromoterAI model developed by Illumina

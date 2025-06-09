@@ -1,0 +1,1 @@
+This directory will contain the YAML file(s) to define the minimal environment to run the package.

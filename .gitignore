@@ -1,0 +1,13 @@
+*ipynb_checkpoints*
+*snakemake*
+.done
+*.pyc
+*snakejob*
+*snakepipe*
+*.mcr
+*.private*
+Rplots.pdf
+*.egg-info*
+slurm-*
+*wandb*
+._*

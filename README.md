@@ -14,13 +14,13 @@ This reimplementation follows Hugging Face `transformers` conventions with a con
 
 ```python
 import torch
-from promoterai_pytorch import PromoterAI, PromoterAIConfig, TwinWrapper
+from promoterai_pytorch import PromoterAI, TwinWrapper
 
 # Define configuration using PromoterAI training defaults
 config = PromoterAIConfig()
 
 # Instantiate the base model
-model = PromoterAI.from_config(config)
+model = PromoterAI(config)
 
 # Wrap in twin network for delta predictions
 twin = TwinWrapper(model)

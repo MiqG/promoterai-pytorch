@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from .config import PromoterAIConfig
+from transformers import PreTrainedModel
 
 class MetaFormerBlock(nn.Module):
     def __init__(self, model_dim, kernel_size, dilation_rate):
